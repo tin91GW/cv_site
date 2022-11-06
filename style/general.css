@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    white-space: nowrap;
+  }
+
+body {
+  padding-top: 300px;
+  padding-left: 340px;
+}
+
+p, h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}

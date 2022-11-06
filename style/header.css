@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Zdjecie CV */
+.pic-cv-container {
+    width: 250px;
+    height: 250px;
+    background-image: url("/cv_site/pic/gw_pic.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 125px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 55px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 255, 0.5);
+    flex-shrink: 0;
+}
+
+/* ====================================================== */
+/* Dane osobowe */
+.cv-personal-info-container {
+    flex: 1;
+    margin-top: 20px;
+}
+
+.cv-person-name {
+    margin-bottom: 50px;
+}
+
+.cv-personal-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: left;
+}
+
+.cv-personal-info img {
+    height: 32px;
+    margin-right: 20px;
+}

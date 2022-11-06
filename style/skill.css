@@ -1,0 +1,23 @@
+.skill-container {
+    width: 320px;
+    height: 1000px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    position: fixed;
+    top: 290px;
+    left: 0px;
+}
+
+
+.hobby-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.hobby-container img {
+    height: 75px;
+    margin-left: 20px;
+    margin-top: 25px;
+    position: relative;
+}
