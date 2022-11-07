@@ -1,19 +1,19 @@
 .content-container {
-    height: 500px;
-    background-color: crimson;
+    background-color: aliceblue;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 340px 1fr;
+}
 
+.life-resume-container {
+    white-space: nowrap;
 }
 
 .education-container {
-    height: 100%;
-    background-color: azure;
+    background-color: aliceblue;
 }
 
 .job-container {
-    height: 100%;
-    background-color: cornflowerblue;
+    background-color: aliceblue;
 }
 
 .header-section {

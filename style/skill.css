@@ -1,18 +1,16 @@
 .skill-container {
-    width: 320px;
-    background-color: blueviolet;
-    border: 1px solid blueviolet;
-    /* position: fixed; */
-    top: 290px;
-    left: 0px;
+    width: 340px;
+    background-color: aliceblue;
 }
 
-
 .hobby-container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    /* justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
+    grid-template-columns: 120px 120px;
+    grid-gap: 40px;
+    padding-left: 20px;
 
 }
 
@@ -32,15 +30,18 @@
 }
 
 .hobby-description {
-    background-color: black;
-    border: 2px solid red;
-    opacity: 1;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 125px;
+    opacity: 0;
     position: absolute;
-    bottom: 60px;
+    bottom: 30px;
     left: 60px;
     pointer-events: none;
-    color: white;
+    color: rgb(114, 53, 184);
     padding: 10px 10px 10px 10px;
+    z-index: 50;
+    box-shadow: 5px 5px 10px rgba( 0, 0, 0, 1);
 }
 
 .sport-hobby:hover .hobby-description,
@@ -50,29 +51,3 @@
     opacity: 1;
 }
 
-.hobby-header-section {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.hobby-header-name {
-    color: wheat;
-    font-size: 26px;
-    background-color: green;
-    padding: 5px;
-    padding-right: 50px;
-}
-
-.hobby-arrow {
-    border-top: 36px solid transparent;
-    border-bottom: 36px solid transparent;
-    border-left: 36px solid green;
-}
-
-.hobby-dot {
-    background-color: green;
-    width: 100%;
-    height: 5px;
-    margin-left: -5px
-}
